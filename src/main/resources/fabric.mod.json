@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "coffeeshop",
+	"version": "${version}",
+	"name": "CoffeeShop",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"GeoffreyGx"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/coffeeshop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.geoffreygx.coffeeshop.CoffeeShop"
+		],
+		"client": [
+			"com.geoffreygx.coffeeshop.CoffeeShopClient"
+		],
+		"fabric-datagen": [
+			"com.geoffreygx.coffeeshop.CoffeeShopDataGenerator"
+		]
+	},
+	"mixins": [
+		"coffeeshop.mixins.json",
+		{
+			"config": "coffeeshop.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
