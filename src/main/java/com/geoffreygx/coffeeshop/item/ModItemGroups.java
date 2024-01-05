@@ -17,6 +17,23 @@ public class ModItemGroups {
                 entries.add(ModItems.CARDBOARD_CUP_SMALL);
                 entries.add(ModItems.CARDBOARD_CUP_MEDIUM);
                 entries.add(ModItems.CARDBOARD_CUP_LARGE);
+                entries.add(ModItems.CARDBOARD_CUP_WHITE);
+                entries.add(ModItems.CARDBOARD_CUP_LIGHT_GRAY);
+                entries.add(ModItems.CARDBOARD_CUP_GRAY);
+                entries.add(ModItems.CARDBOARD_CUP_BLACK);
+                entries.add(ModItems.CARDBOARD_CUP_BROWN);
+                entries.add(ModItems.CARDBOARD_CUP_RED);
+                entries.add(ModItems.CARDBOARD_CUP_ORANGE);
+                entries.add(ModItems.CARDBOARD_CUP_YELLOW);
+                entries.add(ModItems.CARDBOARD_CUP_LIME);
+                entries.add(ModItems.CARDBOARD_CUP_GREEN);
+                entries.add(ModItems.CARDBOARD_CUP_CYAN);
+                entries.add(ModItems.CARDBOARD_CUP_LIGHT_BLUE);
+                entries.add(ModItems.CARDBOARD_CUP_BLUE);
+                entries.add(ModItems.CARDBOARD_CUP_PURPLE);
+                entries.add(ModItems.CARDBOARD_CUP_MAGENTA);
+                entries.add(ModItems.CARDBOARD_CUP_PINK);
+                entries.add(ModItems.WHIPPED_CREAM);
             })
             .build();
 
