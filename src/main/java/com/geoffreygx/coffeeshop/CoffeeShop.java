@@ -4,6 +4,7 @@
 
 package com.geoffreygx.coffeeshop;
 
+import com.geoffreygx.coffeeshop.block.ModBlocks;
 import com.geoffreygx.coffeeshop.item.ModItemGroups;
 import com.geoffreygx.coffeeshop.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -27,5 +28,6 @@ public class CoffeeShop implements ModInitializer {
 		LOGGER.info("CoffeeShop v.0.1 by GeoffreyGx");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

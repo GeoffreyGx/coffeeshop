@@ -1,6 +1,7 @@
 package com.geoffreygx.coffeeshop.item;
 
 import com.geoffreygx.coffeeshop.CoffeeShop;
+import com.geoffreygx.coffeeshop.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,6 +15,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(ModItems.CARDBOARD_CUP_MEDIUM))
             .displayName(Text.translatable("itemGroup.coffeeshop"))
             .entries((context, entries) -> {
+                entries.add(ModBlocks.COFFEE_MACHINE);
                 entries.add(ModItems.CARDBOARD_CUP_SMALL);
                 entries.add(ModItems.CARDBOARD_CUP_MEDIUM);
                 entries.add(ModItems.CARDBOARD_CUP_LARGE);
